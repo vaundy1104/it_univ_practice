@@ -1,0 +1,47 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <title>個人的に好きなmusician</title>
+   <link rel="stylesheet" type="text/css" href="{% static 'musician/css/style.css' %}">
+</head>
+
+<body>
+    <header class="leftNavigation">
+       <h2>ジャンル</h2>
+       <p><a href="{% url 'musician:vaundy_list' %}">vaundy</a></p>
+       <p><a href="#">米津玄師</a></p>
+       <p><a href="#">Mrs.green apple</a></p>
+       <p><a href="#">King Gnu</a></p>
+       <p><a href="#">映秀</a></p>
+       <p><a href="#">RADWIMPS</a></p>
+       <p><a href="#">キタニタツヤ</a></p>
+       <p><a href="#">秋山黄色</a></p>
+       <p><a href="#">SUPER BEAVER</a></p>
+       <p><a href="#">BUMP OF CHICKEN</a></p>
+       <p><a href="#">サカナクション</a></p>
+       <p><a href="#">GReeeeN</a></p>
+       <p><a href="#">official 髭男 dism</a></p>
+       <p><a href="#">あいみょん</a></p>
+       <p><a href="#">緑黄色社会</a></p>
+       <p><a href="#">佐伯ユウスケ</a></p>
+       <p><a href="#">世界の終わり</a></p>
+       <p><a href="#">菅田将暉</a></p>
+       <p><a href="#">The sketchbook</a></p>
+       
+
+    </header>
+    <div class="content">
+        <p class="title">個人的に好きなアーティスト</p>
+        <hr size="1" color="#000000">
+        <p></p>
+        <p align="left", class="box">検索</p>
+        <p></p>
+        <p align="left", class="box">今月ハマった曲</p>
+        <p>＊映秀　　東京散歩</p>
+        <p>＊TOMOOO　　らしくなくったっていいでしょう</p>
+        <p>＊vaundy　　HREO</p>
+        <p></p>
+    </div>
+</body>
